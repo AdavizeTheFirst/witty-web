@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    padding: 15px;  
+   
+}
+#header {
+    background: url(./img/hero5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    /* max-width: 1140px; */
+}
+label, #hamburger {
+    display: none;
+}
+ul li{
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 40px;
+    display: inline-block;
+    padding: 10px;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    font-weight: bold;
+}
+nav ion-icon {
+    margin-top: 9%;
+}
+ion-icon {
+   float: left;
+   color: black;
+   padding: 10px;
+   margin-top: 1%;
+   margin-left: 40px;
+   border-radius: 50%;
+   border: 1px solid black;
+}
+ion-icon:hover {
+    background-color: #c4c4c4;
+    border: none;
+}
+.header-text {
+    margin-top: 12%;
+    margin-left: 7%;
+    color: #f7f7f7;
+}
+.main-header {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    /* word-wrap: break-word; */
+    color: #000;
+}
+.sub-main {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.3em;
+    margin-left: 0;
+    margin-top: 2%;
+}
+.btn {
+    margin-top: 5%;
+    margin-left: 4%;
+    padding: 20px;
+    border: 1px solid #c4c4c4;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.btn:hover{
+    background-color: #c4c4c4;
+}
+
+
+
+/* @media (max-width: 950px){
+    label {
+        display: inline-block;
+        padding: 30px;
+        color: black;
+    }
+    ul li{
+        border-bottom: 1px solid #c4c4c4;
+        display: block;
+        font-size: 14px;
+        padding: 5px;
+    }
+    ul{
+        display: none;
+    }
+    input:checked ~ ul {
+        display: block;
+    }
+    .main-header{
+        font-size: 25px;
+        margin-top: 13%;
+        margin-left: 0;
+    }
+    .sub-main {
+        font-size: 14px;
+        margin-left: 0;
+        margin-top: 3%;
+        line-height: 1.7em;
+        letter-spacing: 0.08em;
+    }
+    .btn {
+        margin-top: 10%;
+        margin-left: 0;
+        width: 200px;
+    }
+    nav ion-icon {
+        margin-top: 15%;
+    }
+}
+
+
+
+
+
+
+/* @media (min-width: 500px){
+    label {
+        display: inline-block;
+        padding: 30px;
+        color: black;
+    }
+    ul li{
+        border-bottom: 1px solid #c4c4c4;
+        display: block;
+        font-size: 14px;
+        padding: 5px;
+    }
+    ul{
+        display: none;
+    }
+    input:checked ~ ul {
+        display: block;
+    }
+    .main-header{
+        font-size: 32px;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    .sub-main {
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 3%;
+        line-height: 1.7em;
+        letter-spacing: 0.08em;
+    }
+    .btn {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    nav ion-icon {
+        margin-top: 15%;
+    }
+} */
+
+
+
+
+
+
+
+     */
