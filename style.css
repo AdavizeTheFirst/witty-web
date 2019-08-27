@@ -163,11 +163,15 @@ ion-icon:hover {
 
 #products {
     margin-top: 30px;
-    margin-bottom: 45px;
+    margin-bottom: 0;
 }
 #products-two {
     background: #000;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
+}
+#products-three {
+    background: #fff;
+    margin-bottom: 1px;
 }
 
                                     /* -------grid text------ */
@@ -192,7 +196,7 @@ ion-icon:hover {
     padding: 40px 5px 40px 5px;
     max-width: 1140px;
     margin: 0 auto;
-    grid-auto-rows: 450px;
+    grid-auto-rows: 400px;
     grid-gap: 20px;
 } 
 #content-two {
@@ -201,11 +205,28 @@ ion-icon:hover {
     padding: 40px 5px 40px 5px;
     max-width: 1140px;
     margin: 0 auto;
-    grid-auto-rows: 375px;
+    grid-auto-rows: 400px;
     grid-gap: 20px;
+}
+#content-three {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 40px 5px 20px 5px;
+        max-width: 1140px;
+        margin: 0 auto;
+        grid-auto-rows: 400px;
+        grid-gap: 20px;
 }
 #content-two div{
     background: #fff;
+    padding: 0 0 20px 0;
+}
+#content-three div{
+    background: #f7f7f7;
+    padding: 0 0 20px 0;
+}
+#content-two div{
+    background: #f7f7f7;
     padding: 0 0 20px 0;
 }
 #content div{
@@ -214,36 +235,108 @@ ion-icon:hover {
 }
 .product-image {
     width: 100%;
-    height: 75%;
+    height: 85%;
     object-fit: cover;
 }
 .product-image-two {
     width: 100%;
-    height: 75%;
+    height: 85%;
     object-fit: cover;
 }
 #content-two div:hover {
-    border: 2px solid black;
-    transform: scale(1.60) translateX(-5px);
-    box-shadow: 0 25px 40px rgba((0, 0, 0, 0.2), .5);
+    border: 4px solid black;
+    transform: scale(1.40) translateX(-5px);
+    /* transition: 0.3s; */
+    /* box-shadow: 0 25px 40px rgba((0, 0, 0, 0.2), .5); */
     z-index: 20;
     width: 250px;
-height: 250px;
+    height: 300px;
 }
 
 
+                                                /*-------footer section------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.row {
+    max-width: 100%;
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)), url(./img/herow.jpg);
+    height: 300px;
+    color: #f7f7f7;
+    padding: 10px;
+}
+.col-1-of-5 {
+    width: 10%;
+    flex: 1;
+    line-height: 2em;
+}
+.col-2-of-5 {
+    width: 10%;
+    flex: 1;
+    line-height: 1.9em;
+}
+.col-2-of-5 h6,
+h4 {
+    text-transform: uppercase; 
+    font-weight: normal;
+}
+.col-3-of-5 {
+    width: 10%;
+    flex: 1;
+    line-height: 1.5em;
+}
+.col-3-of-5 h6,
+h4 {
+    text-transform: uppercase; 
+    font-weight: normal;
+}
+.col-4-of-5 {
+    width: 10%;
+    flex: 1;
+    line-height: 1.5em;
+}
+.col-4-of-5 h4,
+h6 {
+    text-transform: uppercase; 
+    font-weight: normal;
+}
+.col-5-of-5 {
+    width: 10%;
+    flex: 1;
+    line-height: 1.5em;
+    border-left: 1px solid #fff;
+    
+}
+.col-5-of-5 h4 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-left: 15px;
+}
+.col-5-of-5 h6 {
+    font-weight: normal;
+    text-transform: initial;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.col-5-of-5 h3{
+    margin-left: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+.col-1-of-5 h4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.input-text {
+    margin-left: 15px;
+    width: 200px;
+    border: 1px solid #c4c4c4;
+    margin-top: 8px;
+    height: 25px;
+}
 
